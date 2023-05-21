@@ -1,0 +1,54 @@
+body {
+    background-image:url("nature.jpg");
+    background-position: fixed;
+    background-repeat:no-repeat ;
+    color:black;
+    -webkit-backdrop-filter: blur(16px);
+    width:100%;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding:60px;
+    margin:40;
+}
+  h1 {
+    text-align: center;
+  }
+  
+  .converter {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    height:25px;
+  }
+  
+  select{
+    margin-left: 10px;
+    width:100px;
+    height:30px;
+    
+  }
+  .option{
+    font-weight: bold;
+  }
+  button{
+    width:100px;
+    height:30px;
+    display: bottom;
+  }
+  
+  input[disabled] {
+    background-color: #f0f0f0;
+  }
+  
